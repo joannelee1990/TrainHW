@@ -1,0 +1,44 @@
+body {
+    margin: auto;
+    background-image: url("../images/forest.jpg");
+    width: 960px;
+    background-size: cover;                    
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron {
+    text-align: center;
+    background-image: url("../images/cork-wallet.png");
+    opacity: 0.8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+section {
+    background-image: url("../images/cork-wallet.png"); 
+    padding: 20px;
+    opacity: 0.9;
+    font-family: 'Raleway', sans-serif;
+}
+
+.trainForm {
+    margin-bottom: 20px;
+}
+
+ label {
+    font-weight: bold;
+ }
+
+ h5 {
+    background: whitesmoke;
+    padding: 10px;
+    border-bottom: lightgray solid;
+    font-family: 'Raleway', sans-serif;
+ }
+ .btn {
+    background: whitesmoke;
+    font-weight: bold;
+ }
