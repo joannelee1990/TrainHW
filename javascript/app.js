@@ -30,13 +30,7 @@ var database = firebase.database();
     };
     
     database.ref().push(newTrain);
-
-    // Logs everything to console
-    console.log(newTrain.trainName);
-    console.log(newTrain.trainDest);
-    console.log(newTrain.trainFreq);
-    console.log(newTrain.trainTime);
-  
+      
     // Alert
     alert("Train successfully added"); 
     
